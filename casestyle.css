@@ -243,49 +243,6 @@ li {
   padding: 0 20px;
 }
 
-/* Footer */
-.footer {
-  padding: 12px;
-  text-align: center;
-  background: #252525;
-}
-
-#footerText {
-  font-family: 'Overpass', Helvetica, sans-serif;
-  font-size: 18px;
-  color: #fff;
-  margin: 0 auto;
-}
-
-#footerCopyright {
-    font-family: 'Overpass', Helvetica, sans-serif;
-    font-size: 12px;
-    color: #fff;
-    margin: 0 auto;
-    padding-bottom: 12px;
-  }
-
-#footerLink:link {
-  color: #4B8178;
-  text-decoration: none;
-}
-
-#footerLink:visited {
-    color: #005b4b;
-    text-decoration: none;
-}
-
-#footerLink:hover {
-    color: #ffedcb;
-    text-decoration: none;
-}
-
-#cliffGif {
-  max-width: 50px;
-  height: auto;
-  margin: auto 0;
-}
-
 /* Button */
 .projectButton {
   font-family: 'Roboto', sans-serif;
