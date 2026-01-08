@@ -44,6 +44,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .dark-mode {
   background-color: #fff;
   color: #000;
@@ -90,11 +95,12 @@ body {
 .header {
   padding: 38px;
   text-align: center;
-  background-image: url("https://via.placeholder.com/1120x560");
+  background-image: url(images/new_hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 10em;
 }
 
 h1 {
@@ -107,6 +113,7 @@ h1 {
 #headerLink {
   text-decoration: none;
   color: #fff;
+  font-size: 34px;
 }
 
 .caseHeader {
@@ -121,7 +128,7 @@ h1 {
 
 #headerParagraph {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   text-shadow: 2px 2px 8px #000;
   margin: 0 auto;
@@ -195,6 +202,10 @@ h4 {
   padding-bottom: 1em;
 }
 
+p {
+  margin-top: 0px;
+}
+
 p, li {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: normal;
@@ -241,6 +252,49 @@ li {
 .image {
   max-width: 100%;
   padding: 0 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 12px;
+  text-align: center;
+  background: #252525;
+}
+
+#footerText {
+  font-family: 'Overpass', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+#footerCopyright {
+    font-family: 'Overpass', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 12px;
+  }
+
+#footerLink:link {
+  color: #4B8178;
+  text-decoration: none;
+}
+
+#footerLink:visited {
+    color: #005b4b;
+    text-decoration: none;
+}
+
+#footerLink:hover {
+    color: #ffedcb;
+    text-decoration: none;
+}
+
+#cliffGif {
+  max-width: 50px;
+  height: auto;
+  margin: auto 0;
 }
 
 /* Button */
@@ -291,4 +345,16 @@ a.links:active {
 
 a.links {
   font-family: 'Roboto', sans-serif;
+}
+
+img.image {
+  margin: 2rem 0;
+}
+
+#fix1, #fix2, #fix3 {
+  max-width: 100%;
+  padding: 0 20px;
+  height: 40rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
